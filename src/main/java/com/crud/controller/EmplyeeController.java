@@ -1,7 +1,7 @@
-package com.crud.crud.controller;
+package com.crud.controller;
 
-import com.crud.crud.Entity.Employee;
-import com.crud.crud.Service.EmployeService;
+import com.crud.Entity.Employee;
+import com.crud.Service.EmployeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

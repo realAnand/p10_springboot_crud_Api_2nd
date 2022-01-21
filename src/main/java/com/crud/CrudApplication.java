@@ -1,7 +1,7 @@
-package com.crud.crud;
+package com.crud;
 
-import com.crud.crud.Entity.Employee;
-import com.crud.crud.Repository.EmployeeRepository;
+import com.crud.Entity.Employee;
+import com.crud.Repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

@@ -1,4 +1,4 @@
-package com.crud.crud.Entity;
+package com.crud.Entity;
 
 public class Employee {
 
@@ -22,23 +22,26 @@ public class Employee {
         return employeeId;
     }
 
-    public void setEmployeeId(int employeeId) {
+    public int setEmployeeId(int employeeId) {
         this.employeeId = employeeId;
+        return employeeId;
     }
 
     public String getEmployeeName() {
         return employeeName;
     }
 
-    public void setEmployeeName(String employeeName) {
+    public String setEmployeeName(String employeeName) {
         this.employeeName = employeeName;
+        return employeeName;
     }
 
     public String getAddress() {
         return address;
     }
 
-    public void setAddress(String address) {
+    public String setAddress(String address) {
         this.address = address;
+        return address;
     }
 }

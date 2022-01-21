@@ -1,6 +1,6 @@
-package com.crud.crud.Repository;
+package com.crud.Repository;
 
-import com.crud.crud.Entity.Employee;
+import com.crud.Entity.Employee;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -26,6 +26,21 @@ public class EmployeeRepository {
          e.setEmployeeName(emp.getEmployeeName());
       });
       return "Successfully Updated";
+   }
+//   TODO: 1.create method name getById
+//           2.passed id as int
+//           3.iterate over list employee
+//           4.search for id
+//           5.return employee
+
+
+
+   public void setId(passed id) {
+      this.id = id;
+   }
+
+   public passed getId() {
+      return id;
    }
 
    public String delete(int empNo){
